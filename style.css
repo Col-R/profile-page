@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+main{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+/* Top navbar */
+nav {
+  background: black;
+  padding: 0px 15px;
+  border: 2px inset azure;
+}
+
+ul {
+  margin-left: 50px;
+  margin-right: 150px
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#button-item {
+  color: white;
+  font-weight: bold;
+  background-color: dodgerblue;
+  border: none;
+  width: 90px;
+  height: 20px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-profile {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+/* Main user profile */
+.profile {
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue {
+  height: 100px;
+  background-color: dodgerblue;
+}
+
+.white {
+  padding-top: 50px;
+  padding-left: 10px;
+  background-color: white;
+  border: 5px solid lightsteelblue;
+  border-top: 0;
+}
+
+#useravi {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 20px;
+  top: 40px;
+  display: block;
+  border-radius: 100px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 5px solid lightsteelblue;
+}
+
+.bio p {
+  padding: 5px 0;
+}
+
+.profileicons, .acceptreject {
+  height: 20px;
+}
+
+#edit {
+  color: blue;
+  text-decoration: none;
+  display: inline;
+  padding-bottom: 10px;
+}
+
+#edit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Subcontent in main */
+.sub {
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subsection-head {
+  padding: 10px;
+  font-size: 12pt;
+  background-color: dimgrey;
+  color: white;
+}
+
+.experiences {
+  border: 3px solid lightsteelblue;
+  border-top: 0;
+}
+
+h4, .dates, .desc {
+  padding: 5px 0px 0px 10px;
+}
+
+.dates {
+  color: slategray;
+  font-size: 10pt;
+}
+
+.desc {
+  padding-bottom: 15px;
+}
+
+/* Sidebars */
+
+
+.sidebartop, .sidebarbottom {
+  width: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlighted {
+  border-radius: 50%;
+  background: lightgray;
+  padding: 5px;
+  color: #000;
+  font: 14pt
+}
+
+.connections {
+  border: 5px solid lightsteelblue;
+  border-top: 0;
+  padding: 10px;
+}
+
+.connections p {
+  padding: 10px;
+  display: inline-block;
+}
+
+.acceptreject {
+  justify-content: center;
+  position: relative;
+  left: 20px;
+}
+
+#viewmore {
+  border: 5px solid lightsteelblue;
+  border-top: 0;
+  padding: 10px;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
